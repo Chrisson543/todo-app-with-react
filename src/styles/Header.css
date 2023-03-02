@@ -1,0 +1,72 @@
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    position: relative;
+}
+.author{
+    font-size: 0.9375rem;
+    font-weight: 400;
+}
+header .logo{
+    border: 5px solid white;
+    padding: 10px 20px;
+    border-radius: 50px;
+    max-width: 350px;
+}
+header h1{
+    color: white;
+    line-height: 25px;
+}
+.options{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    right: 0px;
+}
+.options button{
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+}
+.options button img{
+    width: 67%;
+}
+.options button img:hover{
+    cursor: pointer;
+}
+.options ul{
+    position: absolute;
+    top: 25px;
+    left: 10;
+    list-style: none;
+    background-color: white;
+    padding: 0;
+    border: 1px solid black;
+    width: 150px;
+    text-align: center;
+}
+.options ul li{
+    border: 1px solid black;
+    font-size: 1rem;
+    padding: 5px;
+    font-weight: 500;
+}
+.options ul li:hover{
+    background-color: lightblue;
+    cursor: pointer;
+}
+@media screen and (max-width: 600px) {
+    header .logo{
+        max-width: 240px;
+    }
+}
+@media screen and (max-width: 643px) {
+    .options ul{
+        width: 100px;
+    }
+}

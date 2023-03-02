@@ -1,0 +1,36 @@
+.completed-tasks{
+    display: flex;
+    margin-top: 25px;
+    flex-direction: column;
+}
+.completed-tasks-div1{
+    display: flex;
+    align-items: left;
+    margin-top: 25px;
+    padding-left: 30px;
+}
+.completed-tasks-div2{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 1.375rem;
+}
+.completed-tasks p{
+    color: white;
+    margin-left: 20px;
+    font-size: 1.375rem;
+    font-weight: 500;
+}
+.completed-tasks h1{
+    display: block;
+    color: white;
+    font-size: 1.5625rem;
+    font-weight: 500;
+    text-decoration: underline;
+    text-transform: capitalize;
+}
+.completed-tasks img{
+    width: 25px;
+}

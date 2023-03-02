@@ -1,0 +1,20 @@
+.add-item{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    bottom: 20px;
+}
+.add-item-button{
+    padding: 10px 20px;
+    border-radius: 50px;
+    color: black;
+}
+.add-item-button:hover{
+    cursor: pointer;
+}
+.add-item-button h1{
+    font-size: 1.375rem;
+    font-weight: 600;
+}
